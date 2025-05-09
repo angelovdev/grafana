@@ -1,7 +1,7 @@
 import { DataQueryError } from '@grafana/data';
+import { Trans } from '@grafana/i18n';
 import { Alert, JSONFormatter } from '@grafana/ui';
 
-import { Trans } from '../../core/internationalization';
 
 interface InspectErrorTabProps {
   errors?: DataQueryError[];

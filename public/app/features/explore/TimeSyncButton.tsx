@@ -1,6 +1,6 @@
+import { t } from '@grafana/i18n/internal';
 import { Tooltip, ToolbarButton } from '@grafana/ui';
 
-import { t } from '../../core/internationalization';
 
 interface TimeSyncButtonProps {
   isSynced: boolean;

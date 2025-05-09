@@ -8,6 +8,7 @@ import { Stack, Select, UserIcon, UserView, Button } from '@grafana/ui';
 import { setMonacoEnv } from 'app/core/monacoEnv';
 import { ThemeProvider } from 'app/core/utils/ConfigProvider';
 
+// eslint-disable-next-line no-restricted-imports
 import { Trans } from '../app/core/internationalization';
 
 import { NamespaceContext, WrappedPlugins } from './plugins';

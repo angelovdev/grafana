@@ -1,9 +1,9 @@
 import { css } from '@emotion/css';
 
 import { DataQueryError, GrafanaTheme2 } from '@grafana/data';
+import { Trans } from '@grafana/i18n';
 import { Icon, useStyles2 } from '@grafana/ui';
 
-import { Trans } from '../../../core/internationalization';
 
 export interface Props {
   error: DataQueryError;
